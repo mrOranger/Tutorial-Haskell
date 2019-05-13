@@ -22,10 +22,10 @@ A seguito della valutazione della condizione posta all'interno dell'**if**:
 
 **Se la condizione è falsa** verrà valutata l'espressione contenuta nell'else.
 
-###Note
+### Note
 In questo file e nei precedenti, vengono usate delle funzioni, questo argomento verrà trattato successivamente, per ora è necessario sapere solo che:
 
-1.* Una funzione deve essere necessariamente definita ed implementata *
-2.* Una funzione deve necessariamente restituire un risultato o un'azione *
+1. * Una funzione deve essere necessariamente definita ed implementata *
+2. * Una funzione deve necessariamente restituire un risultato o un'azione *
 
 
