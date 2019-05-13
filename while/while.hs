@@ -4,7 +4,7 @@ module While where
     import Text.Printf
 
     -- Definizione delle funzioni -- 
-    -- finoADiesci prende in input un intero ed esegue un'azione di Input-Output
+    -- finoADieci prende in input un intero ed esegue un'azione di Input-Output
     finoADieci :: Integer -> IO()
     -- incrementaDi prende in input due interi e resituisce un intero --
     incrementaDi :: Integer -> Integer -> Integer
