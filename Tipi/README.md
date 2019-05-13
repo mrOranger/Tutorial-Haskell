@@ -4,12 +4,12 @@ Haskell è un linguaggio a tipizzazione statica, questo implica che il binding t
 ## Tipi numerici
 E' importante sapere che in Haskell esiste una molteplicità di tipi numerici, in sostanza possiamo raggruppare questi in:
 ### Numeri Interi
-**Int**: Rappresenta i numeri interi per cui è possibile definire arbitrariamente il numero di bit usati per rappresentarlo. Es: Int8 => Numeri interi rappresentati con 8 bit (-128, 127).__
-**Integer**: Rappresenta i numeri interi di dimensione arbitraria.
+..* **Int**: Rappresenta i numeri interi per cui è possibile definire arbitrariamente il numero di bit usati per rappresentarlo. Es: Int8 => Numeri interi rappresentati con 8 bit (-128, 127).__
+..* **Integer**: Rappresenta i numeri interi di dimensione arbitraria.
 ### Numeri Frazionali
-**Float**: Rappresenta i numeri con la virgola a singola precisione.__
-**Double**: Rappresenta i numeri con la virgola a doppia precisione.__
-**Rational**: Rappresenta i numeri derivata dalla divisione di due numeri interi.
+..* **Float**: Rappresenta i numeri con la virgola a singola precisione.__
+..* **Double**: Rappresenta i numeri con la virgola a doppia precisione.__
+..* **Rational**: Rappresenta i numeri derivata dalla divisione di due numeri interi.
 ## Stringhe
 In Haskell è definito il tipo String, tuttavia questo non è un tipo primitivo del linguaggio ma presente nella libreria standard. Il tipo primitivo per rappresentare le stringhe è il vettore di caratteri. Una stringa si rappresenta con le **""**.
 ## Booleani
