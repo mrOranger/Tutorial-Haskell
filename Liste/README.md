@@ -10,8 +10,6 @@ La definzione di una variabile di tipo List in Haskell può essere fatta in __du
 ```
     miaLista :: [] tipoElementi
     miaLista :: [tipoElementi]
-
-
 ```
 
 Di seguito, la notazione adottata per definire una variabile di tipo Lista è la seconda.
@@ -37,3 +35,22 @@ Le principali operazioni definite sul tipo lista sono:
 18. **..** applicato ad una lista, restituisce tutti gli elementi contenuti nel range di valori specificati.
 19. **take** riceve in input il numero di elementi che si vogliono ricavare dalla lista e la lista stessa.
 20. **drop** elimina dalla lista gli n elementi passati in input.
+
+## Definizione alternativa di liste
+
+Haskell permette di definire una lista a partire dalle sue proprietà. Questa particolare caratteristica si incastra perfettamente con il significato matematico di insieme. Ad esempio:
+
+```
+    Definire in termini matematici l'insieme delle potenze di due il cui esponenete è compreso in 0,10
+    A = {2^x |  x ∈ N AND x ∈ [0,10]}
+    (1,2,4,8,16...)
+```
+
+In Haskell è possibile definire questo tipo di insieme usando una sintassi molto simile:
+
+```haskell
+    pow :: [Int]
+    pow = [2^x | x <- [0,10]]
+```
+
+E' possibile quindi usare queste espressioni per denotare degli insiemi potenzialmente infiniti e determinare, ad esempio, se una particolare istanza appartiene o no a quell'insieme. Analogamente con le forme numeriche, è possibile applicare lo stesso ragionamento alle stringhe.
