@@ -65,7 +65,7 @@ Si consideri una quintupla del tipo (a, b, c, d, e) e si considerino le funzioni
     -- Non mi interessano i contenuti di quelle posizioni ma solo quella!
 ```
 
-## SEGNAPOST @
+## SEGNAPOSTO @
 
 Esiste una maniera attraverso la quale, è possibile tenere un riferimento all'intero pattern passato in input. Precisamente, se in input ci fosse una lista o una stringa ed il nostro pattern specifica un caso in cui questa si ritrova ad essere divisa in due sezioni distine, è possibile usare il carattere _@_ preceduto da un nome simbolico, per avere un riferimento al pattern completo in input.
 

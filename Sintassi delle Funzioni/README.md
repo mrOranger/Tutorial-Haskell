@@ -45,3 +45,6 @@ Una funzione può anche non ricevere parametri, tuttavia, questa deve necessaria
 In Haskell esistono diverse maniere per definire una funzione, per ora ci siamo limitati solo alla definizione che usa le parentesi '{}' come nei linguaggi C-like, tuttavia altre maniere per definire una funzione sono:
 
 1. **Patter-matching**: usare cioè un insieme di esempi chiamati _pattern_ rappresentanti le situazioni in cui si può trovare la funzione.
+2. **Where con guardia**: separa la definizione delle variabili dal resto della funzione, inoltre vengono definiti una serie di _"if a cascata"_.
+3. **Let**, simile come funzionamento al _where_, l'unica differenza consiste nella posizione in cui vengono definite le variabili. Utilizza il contemporanea la keyword **in**.
+4. **Case**, stesso funzionamento dei linguaggi imperativi, si differenza per la valutazione dei vari casi, i quali saranno delle espressioni.
